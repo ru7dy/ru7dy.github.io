@@ -10,7 +10,7 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li{% if page.title == "Haochen Zhao" %} class="active"{% endif %}>
+        <li{% if page.title == "Mark Miyashita" %} class="active"{% endif %}>
           <a href="/">About</a>
         </li>
         <li{% if page.url contains "/resume" %} class="active"{% endif %}>
@@ -21,6 +21,29 @@
         </li>
         <li{% if page.url contains "/blog" %} class="active"{% endif %}>
           <a href="/blog">Blog</a>
+        </li>
+        <li{% if page.url contains "/cs61a" %} class="active"{% endif %}>
+          <a href="/cs61a/{{ site.current_semester }}">CS61A</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More CS Classes <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/cs61b">CS61B - Data Structures</a></li>
+            <li><a href="/cs61c">CS61C - Computer Architecture</a></li>
+            <li><a href="/cs70">CS70 - Discrete Mathematics</a></li>
+          </ul>
+        </li>
+        <li{% if page.url contains "/interviews" %} class="active"{% endif %}>
+          <a href="/interviews/problems">Interview Practice</a>
+        </li>
+        <li {% if page.url contains "/blueprint" %} class="active"{% endif %}>
+          <a href="/blueprint">Blueprint</a>
+        </li>
+        <li{% if page.url contains "/hkn" %} class="active"{% endif %}>
+          <a href="/hkn">HKN</a>
+        </li>
+        <li{% if page.url contains "/web_dev" %} class="active"{% endif %}>
+          <a href="/web_dev">Web Development</a>
         </li>
         <li{% if page.url contains "contact" %} class="active"{% endif %}>
           <a href="/contact">Contact</a>

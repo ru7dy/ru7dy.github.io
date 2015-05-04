@@ -21,12 +21,12 @@ $(document).keypress(function(e) {
     case 98: // 'b' for blog
       document.location.href = base + '/blog';
       break;
-    // case 104: // 'h' for hkn
-    //   document.location.href = base + "/hkn";
-    //   break;
-    // case 105: // 'i' for interview practice
-    //   document.location.href = base + "/interviews/problems";
-    //   break;
+    case 104: // 'h' for hkn
+      document.location.href = base + "/hkn";
+      break;
+    case 105: // 'i' for interview practice
+      document.location.href = base + "/interviews/problems";
+      break;
     case 109: // 'm' for more
       $('#sub-links').slideDown('medium');
       break;
@@ -36,12 +36,12 @@ $(document).keypress(function(e) {
     case 114: // 'r' for resume
       document.location.href = base + '/resume';
       break;
-    // case 119: // 'w' for web development
-    //   document.location.href = base + '/web_dev';
-    //   break;
-    // case 99: // 'c' for cs61a
-    //   window.location.href = base + "/cs61a";
-    //   break;
+    case 119: // 'w' for web development
+      document.location.href = base + '/web_dev';
+      break;
+    case 99: // 'c' for cs61a
+      window.location.href = base + "/cs61a";
+      break;
     default:
       console.log(e.charCode);
   }
