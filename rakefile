@@ -16,7 +16,7 @@ end
 desc "copy code files for interview practice problems"
 task :copy_code do
   puts "Copying code files into interview problems directory"
-  cp_r("_includes/interviews/problems/", "_deploy/interviews")
+  # cp_r("_includes/interviews/problems/", "_deploy/interviews")
 end
 
 desc "generate site"
