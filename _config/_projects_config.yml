@@ -1,0 +1,9 @@
+projects:
+  - name: PopStar
+    url:
+    repo: https://github.com/ru7dy/PopStar
+    image:
+    description: Design and implement PopStar, a system for classifying a site as benign or malicious based on a combination of static and lightweight dynamic analysis. Calculate the social reputation of a site based on the activity in several popular social networks. Additionally, we define and calculate a site’s agility based on features extracted from the screenshot and source code. Use random forest to train our classifier. Implement PopRank, which takes search engine results (Microsoft Bing) for the most popular keywords in an industry and returns optimized ranks based on their social reputation.
+
+
+

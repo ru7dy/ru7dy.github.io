@@ -1,0 +1,40 @@
+doctype html
+
+html lang='en'
+  head
+    | {% include header.html %}
+  body
+    a.sr-only href="#content" Skip Navigation
+
+    | {% include navigation/nav-main.html %}
+
+    | {% if page.skip_about != true %}
+    |   {% include about.html %}
+    | {% endif %}
+
+    | {% if page.is_e98 %}
+    |   {% include e98/navigation.html %}
+    | {% endif %}
+
+    | {% if page.full_page %}
+    |   {{ content }}
+    | {% else %}
+    .container.bs-docs-container
+      .row
+        | {{ content }}
+    | {% endif %}
+
+    footer.bs-footer role="contentinfo"
+      p.copyright
+        | © 2015 Haochen Zhao
+
+      ul.footer-links
+        li
+          a href="http://github.com/ru7dy" Github
+        li.muted &middot;
+        li
+          a href="https://www.linkedin.com/pub/haochen-zhao/88/979/655" LinkedIn
+        li
+
+
+    | {% include footer.html %}

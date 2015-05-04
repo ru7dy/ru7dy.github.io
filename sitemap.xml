@@ -1,0 +1,16 @@
+---
+layout: nil
+site_pages:
+  - /
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.pages %}
+    <url>
+        <loc>{{ site.url | xml_escape }}{{ post.url | xml_escape }}</loc>
+        {% if post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+    </url>
+    {% endfor %}
+</urlset>

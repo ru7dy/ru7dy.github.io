@@ -1,0 +1,18 @@
+permalink: /:categories/:title
+url: http://ru7dy.com
+destination: _deploy
+pygments: true
+markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, rakefile, readme.md, LICENSE, _todo.yml]
+include: [.gitignore]
+title: Mark Miyashita
+author:
+  name: Haochen Zhao
+  email: rudymelody@gmail.com
+  gihub: ru7dy
+  twitter: ru7dy
+
+e98:
+  - Introductions
+  - Extracurricular Activities
+  - Study Skills - Learning to Learn

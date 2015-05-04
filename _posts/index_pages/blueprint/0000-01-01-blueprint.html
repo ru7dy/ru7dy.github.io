@@ -1,0 +1,113 @@
+---
+layout: parallax
+title: Blueprint
+permalink: /blueprint
+full_page: true
+skip_about: true
+---
+<link href="{{ page.base_url }}/assets/css/blueprint.css" rel="stylesheet">
+
+<div id="blueprint-main" class="top-elem">
+  <div class="container full-height">
+    <div class="row full-height">
+      <div class="block full-height">
+        <div class="block-inner">
+          <h1 class="blueprint-font"><span class="blueprint-dark-blue">blue</span>print</h1>
+          <p class="block-description">
+            Technology for Non-Profits
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="relative" data-image="/assets/images/blueprint/calblueprint.jpg"></div>
+
+<div id="make-a-difference" class="feature-text top-elem">
+  <div class="container full-height">
+    <div class="row full-height">
+      <div class="block full-height">
+        <div class="block-inner">
+          <h1 class="block-title blueprint-font">Make a Difference.</h1>
+          <p class="block-description">
+            Use your engineering skills to help a local or international non-profit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="relative" data-image="/assets/images/blueprint/retreat_group.jpg"></div>
+
+<div id="build-cool-things" class="feature-text top-elem">
+  <div class="container full-height">
+    <div class="row full-height">
+      <div class="block full-height">
+        <div class="block-inner">
+          <h1 class="block-title blueprint-font">Build cool things.</h1>
+          <p class="block-description">
+            We like to build cool things. Whether it be a web app, mobile app, or the JSON API in between, we've built it all.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="relative" data-image="/assets/images/blueprint/retreat_group_funny.jpg"></div>
+
+<div id="have-fun" class="feature-text top-elem">
+  <div class="container full-height">
+    <div class="row full-height">
+      <div class="block full-height">
+        <div class="block-inner">
+          <h1 class="block-title blueprint-font">Come have a blast with us.</h1>
+          <p class="block-description">
+            In addition to building cool things, we also have a ton of fun together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="relative" data-image="/assets/images/blueprint/football.jpg"></div>
+
+<div id="learn-more" class="feature-text top-elem">
+  <div class="container full-height">
+    <div class="row full-height">
+      <div class="block full-height">
+        <div class="block-inner">
+          <h1 class="block-title blueprint-font">Applications for Spring 2014 have now closed.</h1>
+          <p class="block-description">
+            Be sure to check back in the Fall! For now, check out our website at <a href="http://calblueprint.org">calblueprint.org</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    setHeights();
+
+    var touch = Modernizr.touch;
+    $(".relative").imageScroll({
+      mediaWidth: 1350,
+      mediaHeight: 900,
+      touch: touch
+    });
+  });
+
+  $(window).resize(function() {
+    setHeights();
+  });
+
+  setHeights = function() {
+    var windowHeight = $(window).height() - 50;
+    $("#blueprint-main").height(windowHeight);
+  };
+</script>
