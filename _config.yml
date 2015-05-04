@@ -1,0 +1,16 @@
+# Site settings
+title: Haochen
+header-img: img/home-bg-1.jpg
+email: rudymelody@gmail.com
+description: "Data Mining, Machine Learning, Software Devlopment & Sports"
+baseurl: ""
+url: "http://ru7dy.com"
+twitter_username: ru7dy
+github_username:  ru7dy
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

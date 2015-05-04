@@ -1,72 +1,20 @@
-# Mark Miyashita
-<http://markmiyashita.com>
+<<<<<<< HEAD
+#Areidz.me using Jekyll + Clean Blog
 
-# Using Jekyll
+My personal blog using Jekyll + Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-The site is built using <a href="https://github.com/mojombo/jekyll">Jekyll</a>. a static blog generator that was built by <a href="https://github.com/mojombo">mojombo</a>. It works seamlessly with <a href="http://pages.github.com/">Github Pages</a> which allows you to deploy your website just by pushing to a branch on your repo. After the initial set up time, adding content to the blog is a breeze.
+## What's Included
 
-# Structure
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-### _config.yml
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
-Contains general configuration for Jekyll and also the information that is formatted on my resume, projects page, and also where I define variables for other parts of the site. My work is listed as an array which I can iterate over and it allows me to keep my information all in one spot. If you have any suggestions about how I should structure it, please let me know!
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
-### /_posts
+## Support
 
-Contains all of the posts that I have written. The directory is split into sections for my blog, cs61a, and my web_dev subdirectories. Posts are written in markdown and the file names are in the form:
-
-    yyyy-mm-dd-title-of-post.md
-
-### /downloads
-
-Contains files that may be downloaded by users such as my resume.
-
-### /_layouts
-
-Contains the skeleton template files that form the basic outline of a post, a blog post, a note, etc. This maintains a website that eliminates as much repetition as possible. It also allows me to make a single change to a template that affects several posts or several subdirectories at a time (and consistently).
-
-### /_includes
-
-Directory that contains the files that can be used in various parts of the website. For example, the header is in its own file to be included in the template later on. That way I can edit the header by itself. It creates a modular website that is easily to edit and maintain. Files can be included using the following syntax:
-
-    {% include header.html %}
-
-### /public
-
-Contains the /js, /css, /img directories that contain the respective javascript, stylesheet, and image files.
-
-### CNAME
-
-The CNAME file allows me to easily point my repo to my own personal domain. After setting up my DNS settings to point to Github, I don't have to worry about hosting or anything like that.
-
-### sitemap.xml
-
-Sitemap used for search engines to find the pages on the site. 
-
-### atom.xml
-
-Creates an atom feed for people to subscribe to my posts.
-
-### robots.txt
-
-Allows search engines to crawl the site.
-
-### LICENSE
-
-Standard MIT License.
-
-### Gemfile
-
-A basic Ruby Gemfile that contains the necessary gems that are needed to setup Jekyll. Simply run:
-
-    bundle install
-
-And the Jekyll gem with all of its dependencies will be installed.
-
-### 404.html
-
-A basic 404 page that shows up when the end-user visits a page that can't be found.
-
-### .gitignore
-
-A very basic .gitignore file that makes sure not to include Mac OS X's .DS_Store files as well as the _site directory that is created when the site is compiled using Jekyll.
+Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+=======
+# ru7dy.github.io
+ru7dy.com
+>>>>>>> 22ad3cbe52b6bf930aacfc0a3a639499fd62e23b
