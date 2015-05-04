@@ -1,12 +1,12 @@
 # Site settings
-title: Areidz
+title: Haochen Zhao
 header-img: img/home-bg-1.jpg
-email: areidz@areidz.me
-description: "Thoughts, ROM Hacking, Reverse Engineering and everything related."
+email: rudymelody@gmail.com
+description: "Data Mining, Machine Learning, Software Devlopment & Sports"
 baseurl: ""
 url: "http://ru7dy.com"
-twitter_username: Areidz
-github_username:  Areidz
+twitter_username: ru7dy
+github_username:  ru7dy
 
 # Build settings
 markdown: kramdown
