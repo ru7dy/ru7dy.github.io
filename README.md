@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Areidz.me using Jekyll + Clean Blog
 
 My personal blog using Jekyll + Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
@@ -13,3 +14,7 @@ You can run `jekyll serve --watch` and `grunt watch` at the same time to watch f
 ## Support
 
 Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+=======
+# ru7dy.github.io
+ru7dy.com
+>>>>>>> 22ad3cbe52b6bf930aacfc0a3a639499fd62e23b
